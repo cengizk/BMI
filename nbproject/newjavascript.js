@@ -9,7 +9,7 @@ $("#knopf").click(function(){
   var groesse=$("#groese").val();
   var gewicht=$("#gewicht").val();
   var bmi=0;
-  var g=groesse^2;
+  var g=groesse*groesse;
   
   bmi=gewicht/g;
  $("body").append("Ihr BMI beträgt "+bmi+"");
